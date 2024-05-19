@@ -1,0 +1,187 @@
+
+.navbar a {
+  float: left;
+  text-align: left;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 20px;
+  color: rgb(31, 30, 30);
+}
+.navbar a:hover {
+  color: lightpink;
+}
+nav {
+  font-family:'Times New Roman', Times, serif;
+}
+p {
+  text-align: center;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+h3.ps {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.Title2 {
+  text-align: center;
+  color: #1d1d1d;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.Title3 {
+  text-align: center;
+  color: #1d1d1d;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.AllFilms {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: all 0.5s;
+}
+.AllFilms .v01 {
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: 1px solid rgb(202, 202, 202);
+}
+.AllFilms .v01 img {
+  width: 100px;
+  border-radius: 5px;
+}
+.AllFilms .v01 a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s;
+  /* duration: 0.5s; */
+}
+.AllFilms .v01 p {
+  padding: 0px;
+}
+.AllFilms .v01:hover {
+  margin-top: 6px;
+}
+
+.Portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.Portfolio .po1 {
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  padding: 20px;
+  border: 1px solid rgb(202, 202, 202);
+  transition: all 0.5s;
+  box-shadow: 5px 5px 10px rgb(191, 189, 189);
+}
+.Portfolio .po1 img {
+  width: 100px;
+  border-radius: 5px;
+}
+.Portfolio .po1 a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.Portfolio .po1 p {
+  padding: 0px;
+}
+.Portfolio .po1:hover {
+  margin-top: 6px;
+}
+.PoColor {
+  background-color: rgb(244, 241, 241);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+}
+
+.Portfolio .po1 a {
+  text-decoration: none;
+  width: 50%;
+  color: #ffffff;
+  background: rgb(62, 62, 230);
+  margin: 10px auto;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.Portfolio .po1 p {
+  padding: 0px;
+}
+
+.Portfolio .po1:hover {
+  margin-top: 5px;
+}
+
+.AllFilms {
+  display: flex;
+  /* justify-content: space-between; */
+  /*margin: 60px auto;*/
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto 100px;
+  /* margin-left: 100px; */
+  margin-bottom: 100px;
+}
+.AllFilms.v01 {
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  border-radius: 5px;
+  margin: 40px 10px;
+  padding: 10px;
+  border: 1px solid rgb(202, 202, 202);
+  transition: all 0.5s;
+}
+.AllFilms .v01 a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+footer {
+  color: #1b1b1b;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  background-color: rgb(247, 247, 247);
+}
